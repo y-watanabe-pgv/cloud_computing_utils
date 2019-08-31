@@ -1,0 +1,5 @@
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# m h dom mon dow user    command
+* * * * *         YOUR_USER_NAME    /YOUR_PYTHON_PATH automatic_server_stopper.py
