@@ -1,3 +1,6 @@
+# This file should be put under /etc/cron.d/.
+# Also, the permission should be 644. ($ sudo chmod 0644 /etc/cron.d/automatic_server_stopper.cron)
+
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
