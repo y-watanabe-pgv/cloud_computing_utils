@@ -19,7 +19,7 @@ It's often the case that cloud computing server is charged on a connect-time bas
 sudo chmod u+s /sbin/shutdown
 ```
 3) Put start_instance.sh and automatic_server_stopper.py where your PATH is through.
-for example,
+For example,
 ```sh
 sudo cp start_instance.sh automatic_server_stopper.py /usr/local/bin/
 ```
