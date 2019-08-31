@@ -16,4 +16,4 @@ It's often the case that cloud computing server is charged on connect-time basis
 1) YOUR_INSTANCE_NAME and YOUR_INSTANCE_REGION are set in start_instance.sh.
 2) Make your machines shutdown commands available without password.
 3) Put start_instance.sh and automatic_server_stopper.py where your PATH is through. (/usr/local/bin/)
-4) Set cron on you machine. (/etc/cron.d/automatic_server_stopper.cron)
+4) Set cron on you machine. (/etc/cron.d/automatic_server_stopper.cron, permission 644)
