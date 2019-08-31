@@ -14,7 +14,7 @@ It's often the case that cloud computing server is charged on a connect-time bas
 
 ## How to setup
 1) YOUR_INSTANCE_NAME and YOUR_INSTANCE_REGION are to be set in start_gcp_instance.sh.
-2) Make your machines shutdown commands available without password. 
+2) Make your remote machine's shutdown commands available without password. 
 ```sh
 sudo chmod u+s /sbin/shutdown
 ```
