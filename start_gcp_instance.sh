@@ -3,7 +3,7 @@
 started=false
 while ! $started
 do
-    gcloud compute instances start [YOUR_INSTANCE_NAME] --zone=us-central1-a && started=true
+    gcloud compute instances start [YOUR_INSTANCE_NAME] --zone=YOUR_INSTANCE_REGION && started=true # us-central1-a
 done
 
 connected=false
