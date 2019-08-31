@@ -18,7 +18,7 @@ It's often the case that cloud computing server is charged on a connect-time bas
 ```sh
 sudo chmod u+s /sbin/shutdown
 ```
-3) Put start_instance.sh and automatic_server_stopper.py where your PATH is through. (/usr/local/bin/)
+3) Put start_instance.sh and automatic_server_stopper.py where your PATH is through. (for example. /usr/local/bin/)
 4) Set cron on you machine. (/etc/cron.d/automatic_server_stopper.cron, permission 644)
 5) rm /tmp/gpu_utils_log.csv during each booting.
 ```sh
