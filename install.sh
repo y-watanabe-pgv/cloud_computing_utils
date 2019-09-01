@@ -1,5 +1,5 @@
 #!/bin/sh
-''' This script should be run on your remote machine. '''
+# This script should be run on your remote machine.
 
 # Make your remote machine's shutdown commands available without password.
 sudo chmod u+s /sbin/shutdown
@@ -18,6 +18,14 @@ sudo chmod +x /etc/rc.local
 
 ## Check
 # automatic_server_stopper.py
-# sudo systemctl status crond
+# sudo systemctl status crond # @reboot jobs will be run at computer's startup.
 # sudo systemctl restart crond
 # ls /tmp/gpu_utils_log.csv
+
+# Permissions
+# 777
+# /sbin/shutdown
+# 644
+# /etc/cron.d/automatic_server_stopper.cron
+# 755
+# /usr/local/bin/automatic_server_stopper.py
