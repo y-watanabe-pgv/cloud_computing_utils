@@ -42,12 +42,12 @@ For example,
 ```sh
 sudo cp automatic_server_stopper.py /usr/local/bin/
 ```
-4) Set the cron script on you machine.
+4) Set the cron script on you machine. You need to put YOUR_USER_NAME in this script.
 ```sh
 sudo cp automatic_server_stopper.cron /etc/cron.d
 sudo chmod 0644 /etc/cron.d/automatic_server_stopper.cron
 ```
-5) rm /tmp/gpu_utils_log.csv during each booting.
+5) Set cleaning command (rm /tmp/gpu_utils_log.csv) during each boot.
 ```sh
 sudo sh -c "echo rm /tmp/gpu_utils_log.csv >> /etc/rc.local"
 ```
