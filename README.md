@@ -36,6 +36,9 @@ sudo sh -c "echo rm /tmp/gpu_utils_log.csv >> /etc/rc.local"
 
 # Dependancies
 pandas
+```sh
+pip install pandas
+```
 
 # Check
 sudo systemctl status crond
