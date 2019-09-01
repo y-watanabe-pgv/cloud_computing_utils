@@ -18,6 +18,7 @@ It's often the case that cloud computing server is charged on a connect-time bas
 ```sh
 sudo chmod u+s /sbin/shutdown
 ```
+2.5) Write your python path in automatic_server_stopper.py
 3) Put start_instance.sh and automatic_server_stopper.py where your PATH is through.
 For example,
 ```sh
@@ -32,3 +33,10 @@ sudo chmod 0644 /etc/cron.d/automatic_server_stopper.cron
 ```sh
 sudo sh -c "echo rm /tmp/gpu_utils_log.csv >> /etc/rc.local"
 ```
+
+# Dependancies
+pandas
+
+# Check
+sudo systemctl status crond
+ls /tmp/gpu_utils_
