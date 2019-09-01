@@ -5,7 +5,7 @@
 sudo chmod u+s /sbin/shutdown
 
 # Put start_instance.sh and automatic_server_stopper.py where your PATH is through. For example,
-sudo cp start_instance.sh automatic_server_stopper.py /usr/local/bin/
+sudo cp automatic_server_stopper.py /usr/local/bin/ # start_gcp_instance.sh 
 
 # Set cron on you machine.
 sudo cp automatic_server_stopper.cron /etc/cron.d
