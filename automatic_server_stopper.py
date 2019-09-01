@@ -1,3 +1,5 @@
+#!/bin/python
+
 import subprocess
 import json
 import pprint
