@@ -1,4 +1,4 @@
-# cloud_computing_utils
+# About this repo
 This repository aims effective starting/stopping cloud machines.
 
 # Starting instance (GCP)
@@ -19,8 +19,8 @@ mem_used_delta_threshould = 10
 gpu_util_mean_threshould = 50
 ```
 
-## How to setup
-### About starting instance (GCP)
+# How to setup
+## starting instance (GCP)
 1) YOUR_INSTANCE_NAME and YOUR_INSTANCE_REGION are to be set in start_gcp_instance.sh.
 You can use the script just run by 
 ```bash
@@ -31,7 +31,7 @@ or
 sudo cp start_gcp_instance.sh /usr/local/bin
 $ start_gcp_instance.sh
 ```
-### About stopping instance
+## stopping instance
 1) Make your remote machine's shutdown commands available without password. 
 ```sh
 sudo chmod u+s /sbin/shutdown
