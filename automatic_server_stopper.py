@@ -68,7 +68,7 @@ def get_GPU_util():
   util = 0
   for i in range(n_gpus):
     util += int(gpus_info[i]['utilization.gpu'])
-  return util
+  return util/i
 
 # print(get_GPU_util())
 
